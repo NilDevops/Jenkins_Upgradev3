@@ -12,6 +12,11 @@ pipeline {
                 }
             }
         }
+        stage('Artifact is ready and reploying on QA env') {
+            steps {
+                   build job : 'Tomcat-application-deploy-to-QA-env'
+            }   
+        }            
       
     }
 }
