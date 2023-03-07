@@ -25,7 +25,3 @@ pipeline {
             
       }
 
-<<<<<<< HEAD
-#this is jenking fili12344ncncncncn4e
-=======
->>>>>>> d848060592edeec02637eff932b439f42bdae726
